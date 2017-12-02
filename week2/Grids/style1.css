@@ -1,0 +1,218 @@
+h1 {
+    font-family: Garamond;
+    letter-spacing: 10px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: red;
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+h2 {
+    font-family: Trebuchet MS;
+    float: left;
+    padding: 0em 40em 0em 40em;
+    background-color: yellow;
+    font-size: 100%;
+    margin: 3em -1em 1.5em -1em;
+    letter-spacing: 5px;
+}
+h3 {
+    font-family: serif;
+    color:black;
+}
+p {
+    font-family: Calibri;
+    font-size: 1em;
+}
+.grid-item:hover {
+    background-color: red;
+    color: white;
+    padding: 3%;
+}
+#grid-floats img:hover{
+    width:200%;
+    position:sticky;
+}
+
+
+li {
+    width: 15em;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 10%;
+    border: 0.25em solid red;
+}
+img {
+    width: 100%;
+    box-shadow: 0px 0px 20px #888888;
+}
+
+#grid-floats {
+    margin-left: 2em;
+}
+#grid-floats li {
+    float: left;
+    height: 26em;
+    padding: 1em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+#grid-flex li {
+    margin: 2em;
+    align-content: center;
+}
+#grid-floats li:first-child {
+    width: 30%;
+    padding-right: 6.25em;
+    padding-left: 6.25em;
+}
+@media screen and (max-width: 640px) {
+    
+     main{
+        background-color: rgb(255, 176, 176);
+        margin:-1em;  }
+    h2 {
+        float: left;
+        text-align: center;
+        padding: 0em 5.5em 0em 5.5em;
+        background-color: yellow;
+        margin:3.4em 0em 0.25em 0;
+    }
+    
+    img {
+        width: 100%;
+    }
+    #grid-floats li:first-child {
+        width: 100%;
+        padding: 0;
+        margin-left:-1em;
+    }
+    #grid-floats li {
+        float: left;
+        height: 30em;
+        width: 9em;
+        font-size: 100%;
+        list-style-type: none;
+        border: 0.2em solid rgb(247, 244, 244);
+        padding: 0;
+        margin-right: 1em;
+        background-color: rgba(255, 255, 255, 0.521);
+    }
+    #grid-floats {
+        margin-left: -0.75em;
+    }
+    #grid-flex {
+        padding: 0.5em;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    #grid-flex li {
+        height: 30em;
+        width: 10em;
+        font-size: 100%;
+        text-align: center;
+        list-style-type: none;
+        border: 0.2em solid rgb(247, 244, 244);
+        padding: 0;
+        margin:0px 3px 0px 8px;
+        background-color: rgba(255, 255, 255, 0.521);
+       
+    }
+    .grid-item{border-radius: 0%;}
+   
+}
+@media screen and (max-width: 768px) and (min-width: 640px) {
+    h1 {
+        font-family: Garamond;
+        letter-spacing: 20px;
+        padding: 0.5;
+        text-align: center;
+        color: red;
+        font-size: 4em;
+        background-color: rgba(0, 0, 0, 0.671);
+        width: 100%;
+        position: fixed;
+        
+    }
+    section {
+        background-color: rgba(10, 10, 10, 0);
+    }
+    img {
+        width: 100%;
+    }
+   
+    #grid-floats li {
+        float: left;
+        height: 28em;
+        width: 9em;
+        font-size: 100%;
+        text-align: center;
+        list-style-type: none;
+        border: 1px solid rgb(160, 158, 158);
+        padding: 2em;
+        margin:0.5em 0em 0.5em 1.25em;
+        border-radius: 0%;
+    }
+    
+    
+    #grid-floats {
+        margin-left: -3em;
+
+    }
+    #grid-floats li:first-child {
+        width: 45%;
+        padding: 0;
+        margin-left: 0.5em;
+        
+        
+    }
+    #grid-floats li:nth-child(2) {
+        width: 45%;
+        padding: 0;
+        
+    }
+    #grid-flex {
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: -1.5em;
+        
+    }
+    #grid-flex li {
+        border-radius: 0%;
+        height: 25em;
+        width: 10em;
+        font-size: 100%;
+        text-align: center;
+        list-style-type: none;
+        border: 1px solid rgb(160, 158, 158);
+        padding: 2em;
+        margin: 0em;
+        
+       
+    }
+    h2 {
+        padding: 0em 18em;
+        margin-top:4em; 
+    
+    }
+    
+}
