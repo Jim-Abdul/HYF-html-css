@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+img{
+    width: 100%;
+}
 .rside {
     box-sizing: border-box;
     width: 65%;
