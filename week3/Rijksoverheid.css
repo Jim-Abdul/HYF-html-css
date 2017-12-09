@@ -1,0 +1,126 @@
+   body {
+    margin: 0;
+    padding: 0;
+}
+.rside {
+    box-sizing: border-box;
+    width: 65%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 0;
+    font-size: 1vw;
+}
+#firstf {
+    margin: 0 50%;
+    width: 15%;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 15%;
+}
+li a {
+    background-color: #016a9bd3;
+    border-radius: 5%;
+    display: block;
+    border: 0.5px solid white;
+    color: white;
+    padding: 8% 16%;
+    text-decoration: none;
+    border: 5% solid white;
+    font-size: 1.2vw;
+    font-style: italic;
+}
+li a:hover {
+    background-color: #a3d0e4;
+    color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1%;
+    padding: 0;
+    margin-top: 1%;
+}
+.grid-container a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 4% 2%;
+}
+h3 {
+    color: #01689b;
+    font-weight: normal;
+    text-align: center;
+}
+.item22 {
+    padding: 20%;
+    font-size: 1.5em;
+    color: rgb(139, 0, 0);
+}
+.item23 {
+    padding: 20%;
+    font-size: 1.5em;
+    color: rgb(139, 0, 0);
+}
+.grid-container a:hover {
+    box-shadow: 5px 10px 10px #016a9b;
+}
+h3:hover {
+    text-decoration: underline
+}
+@media screen and (max-width: 667px) {
+    #firstf {
+        margin: 0 50%;
+        width: 50%;
+        height: auto;
+    }
+    #secondf {
+        margin-left: -50%;
+        width: 200%;
+        height: 100px;
+    }
+    ul {
+        width: 0%;
+    }
+    .rside {
+        width: 50%;
+    }
+    .grid-container {
+        display: block;
+        float: left;
+        box-sizing: border-box;
+        font-size: 4vw;
+    }
+    .grid-container div {
+        margin: 20% 0;
+        padding: 0%;
+    }
+    .item22 {
+        font-size: 1.5em;
+        color: rgb(139, 0, 0);
+        border: 1px solid rgb(0, 255, 55);
+    }
+    .item23 {
+        margin-top: 1em;
+        font-size: 1.5em;
+        color: rgb(139, 0, 0);
+        border: 1px solid rgb(0, 255, 55);
+    }
+    h3:hover {
+        text-decoration: underline
+    }
+    .grid-container a:hover {
+        box-shadow: none;
+    }
+    .grid-container a {
+        text-decoration: none;
+        padding: 0;
+    }
+}
+
+
